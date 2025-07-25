@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Farmery | Sustainable Delivery</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="brand">
+        <img src="images/logo.jpg" alt="Sustainably Logo" class="logo">
+        <span class="site-name">Farmery</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="farmer.html">Farmers</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <span class="hamburger">&#9776;</span>
+      <button id="mode-toggle">🌗</button>
+    </nav>
+  </header>
+
+  <section class="delivery-explained">
+    <h2>Sustainable Delivery</h2>
+
+    <div class="delivery-carousel-wrapper">
+      <button class="carousel-btn prev" aria-label="Scroll Left">&lt;</button>
+
+      <div class="delivery-options">
+        <div class="delivery-card">
+          <img src="images/bike-delivery.jpg" alt="Bike Delivery">
+          <h3>Bike-based Delivery</h3>
+          <p>95% of our orders are delivered by zero-emission bike couriers.</p>
+        </div>
+
+        <div class="delivery-card">
+          <img src="images/electric-van.jpg" alt="Electric Van Delivery">
+          <h3>Electric Van</h3>
+          <p>Eco-friendly electric vans used for medium-range deliveries.</p>
+        </div>
+
+        <div class="delivery-card">
+          <img src="images/drone-delivery.jpg" alt="Drone Delivery">
+          <h3>Drone Delivery</h3>
+          <p>Innovative drone delivery service for urgent, zero-footprint shipments.</p>
+        </div>
+
+        <div class="delivery-card">
+          <img src="images/cargo-bike-delivery.jpg" alt="Cargo Bike Delivery">
+          <h3>Cargo Bike</h3>
+          <p>Large cargo bikes for groups of orders efficiently delivered within local areas.</p>
+        </div>
+
+        <div class="delivery-card">
+          <img src="images/reusable-packaging.jpg" alt="Reusable Packaging">
+          <h3>Reusable Packaging</h3>
+          <p>Return the boxes to earn eco-points and reduce plastic waste.</p>
+        </div>
+      </div>
+
+      <button class="carousel-btn next" aria-label="Scroll Right">&gt;</button>
+    </div>
+
+    <div class="impact-stats">
+      <h3>Our Impact</h3>
+      <ul>
+        <li>4,700 km travelled on bikes</li>
+        <li>238 kg plastic saved in 2025</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <section class="footer">
+      <div class="box-container">
+
+        <!-- Brand / About Box (with your brand name/logo + description + social) -->
+        <div class="box footer-about">
+          <h3>Farmery <i class="fas fa-seedling"></i></h3>
+          <p>
+            We connect conscious buyers with local farmers and sustainable brands.
+            Shop ethically, support organic farming, and save the planet.
+          </p>
+          <div class="share">
+            <a target="_blank" href="#" class="fab fa-facebook-f" aria-label="Facebook"></a>
+            <a target="_blank" href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+            <a target="_blank" href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a target="_blank" href="#" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+          </div>
+        </div>
+
+        <!-- Contact Info Box -->
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="tel:+918595272031" class="links"><i class="fas fa-phone"></i> +91 8595 2xx x31</a>
+          <a href="tel:+918962315400" class="links"><i class="fas fa-phone"></i> +91 8962 3xx x00</a>
+          <a href="mailto:goOrganic@Farmery.com" class="links"><i class="fas fa-envelope"></i> goOrganic@Farmery.com</a>
+          <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Delhi, India - 110078</a>
+        </div>
+
+        <!-- Quick Links Box -->
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="about.html" class="links"><i class="fas fa-arrow-right"></i> About Us</a>
+          <a href="shop.html" class="links"><i class="fas fa-arrow-right"></i> Shop</a>
+          <a href="farmer.html" class="links"><i class="fas fa-arrow-right"></i> Farmers</a>
+          <a href="delivery.html" class="links"><i class="fas fa-arrow-right"></i> Delivery</a>
+          <a href="blog.html" class="links"><i class="fas fa-arrow-right"></i> Blog</a>
+          <a href="contact.html" class="links"><i class="fas fa-arrow-right"></i> Contact</a>
+        </div>
+
+        <!-- Newsletter Box (Your existing newsletter form styled and integrated) -->
+        <div class="box">
+          <h3>Newsletter</h3>
+          <p>Subscribe for latest sustainability tips</p>
+          <form id="newsletter" autocomplete="off"
+            onsubmit="event.preventDefault(); alert('Thank you for subscribing! 🌱');">
+            <input type="email" id="newsletter-email" placeholder="Your email" required class="email" />
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Your did-you-know moved below or keep where it is -->
+      <div id="did-you-know" class="footer-did-you-know"></div>
+
+      <div class="credit">
+        Created by <span>Code Crafters</span> | All rights reserved
+      </div>
+    </section>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/modeToggle.js"></script>
+</body>
+
+</html>
