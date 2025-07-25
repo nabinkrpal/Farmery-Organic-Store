@@ -2,7 +2,7 @@
 
 A responsive, multi-page front-end web application that connects conscious buyers with local farmers and eco-friendly brands. Showcases organic products, farmer profiles, sustainable delivery info, blogs, and promotes responsible consumption.
 
-🔗 **Live Demo**: [YourLiveSiteURLHere]
+🔗 **Live Demo**: https://organic-store-oyfm.onrender.com
 
 ---
 
