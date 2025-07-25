@@ -24,7 +24,7 @@ A responsive, multi-page front-end web application that connects conscious buyer
 - **Frontend:** HTML, CSS (with organized styles for responsiveness and animations)
 - **JavaScript:** Dynamic DOM manipulation, carousel behavior, light/dark mode persistence
 - **Backend (optional):** Express.js server for local hosting (`app.js`)
-- **Deployment Platforms:** Netlify, Render.com (for static or node backend hosting)
+- **Deployment Platforms:** Render.com (for static or node backend hosting)
 - **API & Libraries:** Font Awesome for icons (via CDN)
 
 ---
