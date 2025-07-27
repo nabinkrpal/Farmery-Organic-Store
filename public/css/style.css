@@ -480,7 +480,8 @@ nav .nav-links {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
+  margin-top: 5vh;
   position: relative;
   overflow: hidden;
   perspective: 1000px;
