@@ -1586,9 +1586,14 @@ footer {
 .dark-mode .about h2{
   color: var(--eco-badge);
 }
- 
+
+.img1{
+    transition: transform 0.3s ease;
+}
 .img1:hover{
-    background:none;   
+    background:none;
+    transform: scale(1.2);
+    
 }  
 
 /* .dark-mode .farmer-profile.active {
